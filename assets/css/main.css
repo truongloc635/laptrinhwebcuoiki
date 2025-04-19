@@ -257,6 +257,10 @@ li
 		border:none;
 		background-color:#f0f0f0;
 	}
+	#header-mid-min>input:focus
+	{
+		outline:none;
+	}	
     #main-header 
 	{
 		display:flex;
