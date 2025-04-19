@@ -96,6 +96,7 @@ li
 }	
 #user-icon
 {
+	position:relative;
 	height:40px;
 	width:112px;
 	font-size:25px;
@@ -120,11 +121,12 @@ li
 {
 	display:none;
 	position:absolute;
-	right:220px;
-	top:55px;
+	right:0px;
+	top:40px;
 	background-color:white;
 	border-radius:5px;
 	border:1px solid rgb(239, 239, 239);
+	z-index:1000;
 }
 #menu-login li i
 {
