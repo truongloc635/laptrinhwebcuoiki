@@ -153,5 +153,52 @@ li
 /*header-bottom*/
 #header-bottom
 {
-	
+	margin:0px;
+	height:50px;
+	box-shadow: 2px 2px 5px lightgray;
+}	
+#nav
+{
+	width:1130px;
+	height:50px;
+	margin:0 auto;
+	font-family: SFProDisplay, sans-serif;
+	font-size:15px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}	
+#nav ul
+{
+	display:flex;
+	height:50px;
+}	
+#nav ul li
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}	
+.nav-menu, .active
+{
+	font-family: 'Roboto', sans-serif;
+	padding:16px 40px;
+	font-size:15px;
+	color:black;
+	position:relative
+}	
+.nav-menu::before, .active::before
+{
+	content:"";
+	height:4px;
+	width:0%;
+	background:#f00;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	transition:0.25s;
+}
+#nav li:hover>.nav-menu::before, .active::before
+{
+	width:100%;
 }	
