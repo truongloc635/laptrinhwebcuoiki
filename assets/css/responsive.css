@@ -174,6 +174,46 @@
 		height:50px;
 		margin:0px 5px 0px 10px;
 	}	
+	.thucdon
+	{
+		max-width:1130px;
+		width:100%;
+		height:1240px;
+		margin:20px auto 20px auto !important;
+		display:flex;
+		flex-direction:column;
+	}	
+	.mon
+	{
+		width:80%;
+		height:290px;
+		margin:10px auto 10px auto;
+		background-color:white;
+		border-radius:5px;
+		font-size:20px;
+		text-align:center;
+		background-color:#f0f0f0;
+	}	
+	.mon>img
+	{
+		width:100%;
+		height:180px;
+		margin-bottom:10px;
+	}	
+	.sales
+	{
+		
+		height:20px;
+		width:60%;
+		height:30px;
+		margin:10px auto 0 auto;
+		border-radius:5px;
+		background-color:#b5292f;
+		color:white;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}	
 }
 /*950*/
 @media (min-width: 601px) and (max-width: 950px) 
@@ -357,5 +397,45 @@
 		width:80%;
 		height:50px;
 		margin:0px 5px 0px 10px;
-	}		
+	}	
+	.thucdon
+	{
+		max-width:1130px;
+		width:80%;
+		height:310px;
+		margin:20px auto 20px auto;
+		display:flex;
+		flex-wrap:wrap;
+	}	
+	.mon
+	{
+		width:48%;
+		height:290px;
+		margin:10px 1% 10px 1%;
+		background-color:white;
+		border-radius:5px;
+		font-size:20px;
+		text-align:center;
+		background-color:#f0f0f0;
+	}	
+	.mon>img
+	{
+		width:100%;
+		height:180px;
+		margin-bottom:10px;
+	}	
+	.sales
+	{
+		
+		height:20px;
+		width:60%;
+		height:30px;
+		margin:10px auto 0 auto;
+		border-radius:5px;
+		background-color:#b5292f;
+		color:white;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}	
 }	
