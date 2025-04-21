@@ -1,7 +1,7 @@
 /*Main java */
 function searchclick()
 {
-	if (window.matchMedia("(max-width: 600px)").matches) 
+	if (window.matchMedia("(max-width: 950px)").matches) 
 	{
 		var x=document.getElementById("main-header");
 		x.style.display="none";
@@ -12,7 +12,7 @@ function searchclick()
 }	
 function hidesearchclick()
 {
-	if (window.matchMedia("(max-width: 600px)").matches) 
+	if (window.matchMedia("(max-width: 950px)").matches) 
 	{
 		var y=document.getElementById("header-mid-min");
 		y.style.display="none";
@@ -22,7 +22,7 @@ function hidesearchclick()
 }
 function barmenu()
 {
-	if (window.matchMedia("(max-width: 600px)").matches) 
+	if (window.matchMedia("(max-width: 950px)").matches) 
 	{
 		var y=document.getElementById("header-bottom");
 		y.style.display="block";	
@@ -32,7 +32,7 @@ function barmenu()
 }	
 function hidebarmenu()
 {
-	if (window.matchMedia("(max-width: 600px)").matches) 
+	if (window.matchMedia("(max-width: 950px)").matches) 
 	{
 		var y=document.getElementById("header-bottom");
 		y.style.display="none";	
