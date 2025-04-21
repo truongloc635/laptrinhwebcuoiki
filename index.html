@@ -14,16 +14,16 @@
 					<i class="fa-light fa-magnifying-glass"></i>
 				</span>
 				<input type="text" placeholder="Tìm kiếm món ăn. . .">
-				<i style="color:red;" class="fa-light fa-circle-xmark" onclick="hidesearchclick();"></i>
+				<i id="son" style="color:red;" class="fa-light fa-circle-xmark" onclick="hidesearchclick();"></i>
 		</div>
 		<div id="main-header">
 			<div id="menu-tog">
 				    <i class="fa-solid fa-bars" onclick="barmenu();"></i>
 			</div>
-			<img id="header-left">
+			<img id="header-left" src="assets/images/3.jpg">
 			<div id="header-mid">
 				<span id="search-icon">
-					<i class="fa-light fa-magnifying-glass"></i>
+					<i class="fa-light fa-magnifying-glass" onclick="searchclick();"></i>
 				</span>
 				<input type="text" placeholder="Tìm kiếm món ăn. . .">
 			</div>
@@ -71,7 +71,45 @@
 		</div>
 	</div>
 </header>
-<div>
+<div id="carousel">
+</div>
+<div class="service">
+	<div class="homeservice">
+		<div class="homeservice-icon">
+			<i class="fa-light fa-person-carry-box"></i>
+		</div>
+		<div class="caption">
+			<p style="font-size:15px;"><b>GIAO HÀNG NHANH</b></p>
+			<p style="margin-top:7px;">Cho tất cả đơn hàng</p>
+		</div>
+	</div>
+	<div class="homeservice">
+		<div class="homeservice-icon">
+			<i class="fa-light fa-shield-heart"></i>
+		</div>
+		<div class="caption">
+			<p style="font-size:15px;"><b>SẢN PHẦM AN TOÀN</b></p>
+			<p style="margin-top:7px;">Cam kết chất lượng</p>
+		</div>
+	</div>
+	<div class="homeservice">
+		<div class="homeservice-icon">
+			<i class="fa-light fa-headset"></i>
+		</div>
+		<div class="caption">
+			<p style="font-size:15px;"><b>HỖ TRỢ 24/7</b></p>
+			<p style="margin-top:7px;">Tất cả các ngày trong tuần</p>
+		</div>
+	</div>
+	<div class="homeservice">
+		<div class="homeservice-icon">
+			<i class="fa-light fa-circle-dollar"></i>
+		</div>
+		<div class="caption">
+			<p style="font-size:15px;"><b>HOÀN LẠI TIỀN</b></p>
+			<p style="margin-top:7px;">Nếu không hài lòng</p>
+		</div>
+	</div>
 </div>
 <script src="js/main.js"></script>
 </body>
