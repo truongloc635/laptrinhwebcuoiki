@@ -40,3 +40,16 @@ function hidebarmenu()
 		huy.style.display="none";	
 	}	
 }
+window.addEventListener('scroll',function(){
+	var x=document.getElementById("fixed");
+	if(window.scrollY<150)	
+	{
+		x.style.position="static";
+	}
+	else
+	{
+		x.style.position="fixed";
+		x.style.bottom="50px";
+	    x.style.right="0px";
+	}	
+});	
