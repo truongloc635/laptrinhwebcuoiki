@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giới thiệu về Ba Bếp Food</title>
+  <link rel="stylesheet" href="assets/css/Gioithieu.css" />
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="assets/font/font-awesome-pro-v6-6.2.0/css/all.min.css">
+</head>
+<body>
+<!--header-->
+<header>
+  <div id="header-top">
+      <div id="header-mid-min">
+              <span id="search-icon-min">
+                  <i class="fa-light fa-magnifying-glass"></i>
+              </span>
+              <input type="text" placeholder="Tìm kiếm món ăn. . .">
+              <i id="son" style="color:red;" class="fa-light fa-circle-xmark" onclick="hidesearchclick();"></i>
+      </div>
+      <div id="main-header">
+          <div id="menu-tog">
+                  <i class="fa-solid fa-bars" onclick="barmenu();"></i>
+          </div>
+          <img id="header-left" src="assets/images/3.jpg">
+          <div id="header-mid">
+              <span id="search-icon">
+                  <i class="fa-light fa-magnifying-glass" onclick="searchclick();"></i>
+              </span>
+              <input type="text" placeholder="Tìm kiếm món ăn. . .">
+          </div>
+          <div id="header-right">
+              <span id="phone-icon">
+                  <i class="fa-light fa-phone"></i>				
+                  <span class="text">Liên hệ</span>
+              </span>
+              <div id="user-icon">
+                  <i class="fa-light fa-user"></i>
+                  <span class="text">Tài khoản</span>	
+                  <ul id="menu-login">
+                      <li>
+                          <a id="login" href="">
+                              <i style="color:#b5292f;" class="fa-light fa-right-to-bracket"></i>Đăng nhập
+                          </a>
+                      </li>
+                      <li>
+                          <a id="login" href="">
+                              <i style="color:#b5292f;" class="fa-light fa-user-plus"></i>Đăng ký
+                          </a>
+                      </li>						
+                  </ul>
+              </div>
+              <span id="store-icon">
+                  <i class="fa-light fa-basket-shopping"></i>
+                  <span class="text">Giỏ hàng</span>	
+              </span>
+          </div>
+      </div>
+  </div>
+  <hr style="width: 100%; height: 1px; background-color: rgb(239,239,239); border: none; margin: 0;">
+  <div id="header-bottom">
+      <div id="logofmedia"></div>
+      <div id="nav">
+          <ul>
+              <li><a class="nav-menu" href="">TRANG CHỦ</a></li>
+              <li><a class="active" href="">GIỚI THIỆU</a></li>
+              <li><a class="nav-menu" href="">THỰC ĐƠN</a></li>
+              <li><a class="nav-menu" href="">ĐẶT BÀN</a></li>
+              <li><a class="nav-menu" href="">TIN TỨC</a></li>
+              <li><a class="nav-menu" href="">GÓP Ý</a></li>
+          </ul>
+          <i id="huy" class="fa-light fa-circle-xmark" onclick="hidebarmenu();"></i>
+      </div>
+  </div>
+</header>
+
+ 
+<!--Giới thiệu-->
+<section class="gioithieu">
+  <div class="modau">
+    <div class="container">
+      <div class="intro">
+        <h2>Về Ba Bếp Food</h2>
+        <div class="nhanmanh"></div>
+      </div>
+      <div class="chinhanh">
+        <img src="assets/images/gioithieu1.jpg" alt="Ba Bếp Food">
+        <div class="text1">
+          <p>
+            Ba Bếp Food là một thương hiệu chuyên cung cấp các món ăn truyền thống từ khắp 3 miền
+            được chế biến và phục vụ trực tiếp tại cửa hàng cũng như
+            đóng gói sẵn theo tiêu chuẩn an toàn thực phẩm khi khách hàng có nhu cầu đặt online. 
+            Với mong muốn mang lại bữa ăn tiện lợi, phù hợp với mọi lứa khách hàng từ học sinh, sinh viên
+            đến nhân viên văn phòng...
+            Tuy vậy nhưng những món ăn từ cửa hàng chúng tôi vẫn giữ được trọn vẹn hương vị đặc trưng 
+            của từng vùng đất sáng tạo ra món ăn.
+            Chúng tôi đã không ngừng cải tiến từ công thức, quy trình sản xuất đến chất lượng phục vụ để
+            có thể đáp ứng tối đa nhu cầu của khách hàng.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lichsu">
+    <div class="container">
+      <div class="intro">
+        <h3>Lịch sử hình thành</h3>
+        <div class="nhanmanh"></div>
+      </div>
+      <div class="chinhanhdaonguoc">
+        <img src="assets/images/che_com_la_dua.jpg" alt="">
+        <div class="text1">
+          <p>
+            Ba Bếp Food được thành lập vào năm 2005 bởi ba người con đến từ 3 miền của tổ quốc với 
+            tình yêu cháy bỏng dành cho ẩm thực quê hương. Từ một căn bếp nhỏ, 
+            họ đã bắt đầu chế biến các món ăn dân dã như: cá kho, thịt rim, mắm nêm, 
+            gỏi mít trộn… rồi phân phối đến bạn bè, người thân. Dần dần, Ba Bếp được biết
+            đến như một địa chỉ đáng tin cậy của những người xa quê nhớ hương vị nhà.
+            Tuy đã có rất nhiều thăng trầm, những biến cố trong suốt những năm thành lập và 
+            phát triển, không những thế cửa hàng còn nhiều lần đóng cửa và chuyển đi liên tục 
+            vì lí do khách quan từ những quyết sách của Quận ủy, nhưng chúng tôi vẫn kiên cường,
+            vẫn chăm chỉ làm việc và tự đi lên vì chúng tôi biết rất nhiều những khách hàng 
+            thân yêu từ mọi miền ra Thủ Đô mưu sinh, họ rất cần những bữa ăn để cung cấp năng lượng
+            giúp họ chiến đấu với cuộc sống xã hội - vốn chẳng dễ dàng. Đó chính là nguồn động lực to
+            lớn để Ba Bếp Food tiếp tục phát triển cho đến nay.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="giatri">
+      <div class="container">
+        <div class="intro">
+          <h3>Giá trị cốt lõi</h3>
+          <div class="nhanmanh"></div>
+        </div>
+        <div class="chinhanh">
+          <img src="assets/images/giatri.jpg" alt="Giá trị">
+          <div class="text1">
+            <ul>
+              <li><strong>🍽️ Chất lượng:</strong> Nguyên liệu sạch, tươi ngon mỗi ngày</li>
+              <li><strong>🍽️ Truyền thống:</strong> Giữ gìn hương vị đúng chuẩn quê hương</li>
+              <li><strong>🍽️ Tiện lợi:</strong> Đóng gói, bảo quản dễ dàng - phù hợp người bận rộn</li>
+              <li><strong>🍽️ Tận tâm:</strong> Phục vụ khách hàng như người thân trong gia đình</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="quatrinh">
+      <div class="container">
+        <div class="intro">
+          <h3>Quy trình chế biến</h3>
+          <div class="nhanmanh"></div>
+        </div>
+        <figure>
+          <img src="assets/images/quytrinh.jpg" alt="Quy trình">
+          <figcaption>
+            <p><center>
+              Tại Ba Bếp Food, mỗi sản phẩm đều được chế biến theo quy trình khép kín: <br/>
+              chọn nguyên liệu - sơ chế - chế biến - đóng gói - bảo quản. <br/>s
+              Mọi công đoạn đều được kiểm định chất lượng nghiêm ngặt <br/>  nhằm đảm bảo 
+              an toàn vệ sinh thực phẩm và giữ nguyên hương vị đặc trưng.
+            </center>
+            </p>
+          </figcaption>
+        </figure>
+
+      </div>
+    </div>
+
+    <div class="camket">
+      <div class="container">
+        <div class="intro">
+          <h3>Cam kết</h3>
+          <div class="nhanmanh"></div>
+        </div>
+        <p>
+          ✅ Cam kết sử dụng nguyên liệu tươi ngon có nguồn gốc rõ ràng.<br/>
+          ✅ Đảm bảo vệ sinh an toàn thực phẩm và chế biến theo quy trình nghiêm ngặt. <br/>
+          ✅ Đảm bảo không sử dụng chất bảo quản hoặc phụ gia có hại. <br/>
+          ✅ Tuân thủ các tiêu chuẩn vệ sinh an toàn thực phẩm.<br/>
+          ✅ Quy trình chế biến được kiểm soát nghiêm ngặt để đảm bảo chất lượng món ăn <br/>
+          ✅ Cam kết giao hàng đúng giờ, đảm bảo món ăn đến tay khách hàng vẫn giữ được chất lượng tốt nhất.<br />
+          ✅ Luôn lắng nghe và giải quyết mọi phản hồi của khách hàng một cách nhanh chóng<br/>
+          ✅ Thực đơn phong phú, đáp ứng nhiều khẩu vị và nhu cầu dinh dưỡng khác nhau.<br/>
+          ✅ Hỗ trợ đổi trả hoặc hoàn tiền nếu khách hàng không hài lòng với chất lượng món ăn hoặc dịch vụ.
+        </p>
+      </div>
+    </div>
+
+    <div class="doingu">
+      <div class="container">
+        <div class="intro">
+          <h3>Đội ngũ sáng lập</h3>
+          <div class="nhanmanh"></div>
+        </div>
+        <div class="khung">
+          <div class="o">
+            <div class="o_anh">
+              <img src="" alt="Anh Barodev">
+            </div>
+            <h4>Anh Barodev</h4>
+            <p>Chuyên gia ẩm thực miền Trung</p>
+          </div>
+          <div class="o">
+            <div class="o_anh">
+              <img src="" alt="Anh Lộc">
+            </div>
+            <h4>Anh Lộc</h4>
+            <p>Chuyên gia ẩm thực miền Bắc</p>
+          </div>  
+          <div class="o">
+            <div class="o_anh">
+              <img src="" alt="Anh Tùng">
+            </div>
+            <h4>Anh Tùng</h4>
+            <p>Chuyên gia ẩm thực miền Nam</p>
+          </div>
+        </div>
+        <div class="cauchuyen">
+          <p>
+            Để có được những món ăn như hiện tại họ dành toàn bộ thanh xuân để có thể đi dến 
+            từng vùng đất quê nhà, thưởng thức và ghi chú lại những bí quyết được chia sẻ của 
+            đầu bếp mỗi vùng. Họ cứ đi cứ ăn rồi về nấu rồi nếm, không biêt bao nhiêu lần nữa... 
+            Và cuối cùng tâm huyết cả đời của họ được dồn vào Ba Bếp Food.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tukhachhang">
+      <div class="container">
+        <div class="intro">
+          <h3>Khách hàng nói gì?</h3>
+          <div class="nhanmanh"></div>
+        </div>
+        <blockquote>
+        "Mình ở xa nhà nên mỗi lần ăn đồ ăn của Ba Bếp như được trở về tuổi thơ vậy. 
+        Hương vị chuẩn mẹ nấu, rất ấm lòng!" <br />
+        Gia Bảo, Tỉnh Thanh Hóa.
+        </blockquote>
+        <blockquote>
+        "Tôi là một người khá kén chọn món ăn và luôn đòi hỏi sự đa dạng trong từng bữa cơn
+        .Chính vì vậy , để tìm được quán ăn hợp khẩu vị thì rất là khó , tuy nhiên 
+        tình cờ một hôm tôi được bạn - Tống Gia Bảo đưa đi ăn ở cửa hàng Ba Bếp Food 
+        thật bất ngờ khi tôi ăn ở đây 7 ngày mà không ngày nào trùng món.Tôi đánh giá 
+        rất sao sự lựa chọn thực đơn ở đây. Hơn nữa về hương vị , món ăn đã được nêm rất phù hợp
+        với khẩu vị người Bắc đặc biệt với tôi.Tôi thấy đây là quán ăn tuyệt với !" <br />
+        Xuân Tùng , Tình Vĩnh Phúc.
+        </blockquote>
+      </div>
+    </div>
+
+</section>
+<!--Footer-->
+
+<div id="footer">
+	<div id="main-footer">
+		<div id="f1">
+			<div class="ftitle">VỀ CHÚNG TÔI</div>
+			<p style="margin-top:25px;font-size:16px;line-height:1.5;">BaBepFood là thương hiệu được thành lập vào năm 2025 với tiêu chí đặt chất lượng dịch vụ lên hàng đầu.</p>
+			<div id="mxh">
+				<div class="social"><i class="fab fa-facebook-f"></i></div>
+				<div class="social"><i class="fab fa-twitter"></i></div>
+				<div class="social"><i class="fab fa-linkedin-in"></i></div>
+				<div class="social"><i class="fab fa-whatsapp"></i></div>				
+			</div>
+		</div>
+		<div id="f2">
+			<div class="ftitle">VỊ TRÍ</div>
+			<div id="locate">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.6483964306335!2d105.78100147185549!3d21.04675004432328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab325dc97109%3A0x89b77eda220fbe6a!2zMjM1IEhvw6BuZyBRdeG7kWMgVmnhu4d0LCBOZ2jEqWEgVMOibiwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1745282918901!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+		<div id="f3">
+			<div class="ftitle">LIÊN HỆ</div>	
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-location-dot"></i></div>235 Hoàng Quốc Việt, Cổ Nhuế 1,<br> Bắc Từ Liêm, Hà Nội
+			</div>
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-phone"></i></div>01234567892 <br> 0166771508	
+			</div>
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-envelope"></i></div>abc.media@gmail.com<br>loc.media@gmail.com		
+			</div>
+		</div>
+	</div>
+	<div id="backtostart">
+		<div id="iback">
+		</div>
+	</div>
+</div>
+<div id="ai">
+	<div id="fixed">
+	<div id="iai">
+			<a href="#" style="text-decoration:none;color:white;"><i class="fa-regular fa-house"></i></a>	
+	</div>
+	</div>
+</div>
+<div id="cpr" style="text-align:center;font-size:18px;padding:20px;">Copyright 2025 BaBepFood. All Rights Reserved.</div>
+<script src="js/main.js"></script>
+
+  <script></script>
+</body>
+</html>

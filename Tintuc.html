@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin tức</title>
+    <link rel="stylesheet" href="assets/css/Tintuc.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/font/font-awesome-pro-v6-6.2.0/css/all.min.css">
+</head>
+<body>
+ <!--header-->
+ <header>
+    <div id="header-top">
+        <div id="header-mid-min">
+                <span id="search-icon-min">
+                    <i class="fa-light fa-magnifying-glass"></i>
+                </span>
+                <input type="text" placeholder="Tìm kiếm món ăn. . .">
+                <i id="son" style="color:red;" class="fa-light fa-circle-xmark" onclick="hidesearchclick();"></i>
+        </div>
+        <div id="main-header">
+            <div id="menu-tog">
+                    <i class="fa-solid fa-bars" onclick="barmenu();"></i>
+            </div>
+            <img id="header-left" src="assets/images/3.jpg">
+            <div id="header-mid">
+                <span id="search-icon">
+                    <i class="fa-light fa-magnifying-glass" onclick="searchclick();"></i>
+                </span>
+                <input type="text" placeholder="Tìm kiếm món ăn. . .">
+            </div>
+            <div id="header-right">
+                <span id="phone-icon">
+                    <i class="fa-light fa-phone"></i>				
+                    <span class="text">Liên hệ</span>
+                </span>
+                <div id="user-icon">
+                    <i class="fa-light fa-user"></i>
+                    <span class="text">Tài khoản</span>	
+                    <ul id="menu-login">
+                        <li>
+                            <a id="login" href="">
+                                <i style="color:#b5292f;" class="fa-light fa-right-to-bracket"></i>Đăng nhập
+                            </a>
+                        </li>
+                        <li>
+                            <a id="login" href="">
+                                <i style="color:#b5292f;" class="fa-light fa-user-plus"></i>Đăng ký
+                            </a>
+                        </li>						
+                    </ul>
+                </div>
+                <span id="store-icon">
+                    <i class="fa-light fa-basket-shopping"></i>
+                    <span class="text">Giỏ hàng</span>	
+                </span>
+            </div>
+        </div>
+    </div>
+    <hr style="width: 100%; height: 1px; background-color: rgb(239,239,239); border: none; margin: 0;">
+    <div id="header-bottom">
+        <div id="logofmedia"></div>
+        <div id="nav">
+            <ul>
+                <li><a class="nav-menu" href="">TRANG CHỦ</a></li>
+                <li><a class="nav-menu" href="">GIỚI THIỆU</a></li>
+                <li><a class="nav-menu" href="">THỰC ĐƠN</a></li>
+                <li><a class="nav-menu" href="">ĐẶT BÀN</a></li>
+                <li><a class="active" href="">TIN TỨC</a></li>
+                <li><a class="nav-menu" href="">GÓP Ý</a></li>
+            </ul>
+            <i id="huy" class="fa-light fa-circle-xmark" onclick="hidebarmenu();"></i>
+        </div>
+    </div>
+</header>
+
+<!--tin tức-->
+    <section id="tin-tuc" class="news">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tin Tức </h2>
+                <p>Cập nhật những xu hướng và tin tức mới nhất về ẩm thực Việt Nam</p>
+            </div>
+            <div class="news-grid">
+       
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="assets/images/news1.avif" alt="Xu hướng ẩm thực 2025">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">27/04/2025</div>
+                        <h3 class="news-title">Xu hướng ẩm thực Việt Nam năm 2025</h3>
+                        <p class="news-excerpt">Năm 2025 chứng kiến sự trở lại 
+                            của các món ăn truyền thống với cách chế biến hiện đại, đáp ứng nhu 
+                            cầu của khách hàng ...</p>
+                        <a href="#" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="assets/images/bun_bo.jpg" alt="Phở trong top món ngon thế giới">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">10/04/2025</div>
+                        <h3 class="news-title">Bún bò Việt Nam lọt top 10 món ngon nhất thế giới</h3>
+                        <p class="news-excerpt">Tạp chí ẩm thực thế giới vừa công bố danh 
+                            sách 10 món ăn ngon nhất thế giới, trong đó có món Bún bò của Việt Nam...</p>
+                        <a href="#" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="assets/images/duong_pho1.jpg" alt="Ẩm thực đường phố">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">05/04/2025</div>
+                        <h3 class="news-title">Ẩm thực Việt Nam - Điểm hấp dẫn du khách</h3>
+                        <p class="news-excerpt">Theo khảo sát mới nhất, 
+                            85% du khách quốc tế đến Việt Nam đánh giá cao ẩm thực và coi đây là trải nghiệm không thể bỏ qua...</p>
+                        <a href="#" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="assets/images/dau_xao_nam_chay.webp" alt="Ẩm thực chay Việt Nam">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">02/04/2025</div>
+                        <h3 class="news-title">Ẩm thực chay lên ngôi trong giới trẻ</h3>
+                        <p class="news-excerpt">Ẩm thực chay ngày càng được ưa chuộng bởi sự
+                             thanh đạm và tốt cho sức khỏe, 
+                            đặc biệt trong giới trẻ thành thị...</p>
+                        <a href="#" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="assets/images/amthuc_3mien.jpg" alt="Ẩm thực vùng miền">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">25/03/2025</div>
+                        <h3 class="news-title">Khám phá ẩm thực vùng miền Việt Nam</h3>
+                        <p class="news-excerpt">Mỗi vùng miền lại mang một hương vị ẩm thực riêng biệt
+                            , phản ánh đặc trưng văn hóa và khí hậu địa phương...</p>
+                        <a href="#" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-img">
+                        <img src="assets/images/robot-phuc-vu.jpeg" alt="Ẩm thực công nghệ">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">12/03/2025</div>
+                        <h3 class="news-title">Công nghệ và ẩm thực: Sự kết hợp đầy sáng tạo</h3>
+                        <p class="news-excerpt">Các nhà hàng hiện đại đang sử dụng robot phục vụ, 
+                            menu thông minh và ứng dụng AI để nâng cao trải nghiệm khách hàng...</p>
+                        <a href="#" class="read-more">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+  
+                
+            </div>
+        </div>
+    </section>
+<!--Footer-->
+
+<div id="footer">
+	<div id="main-footer">
+		<div id="f1">
+			<div class="ftitle">VỀ CHÚNG TÔI</div>
+			<p style="margin-top:25px;font-size:16px;line-height:1.5;">BaBepFood là thương hiệu được thành lập vào năm 2025 với tiêu chí đặt chất lượng dịch vụ lên hàng đầu.</p>
+			<div id="mxh">
+				<div class="social"><i class="fab fa-facebook-f"></i></div>
+				<div class="social"><i class="fab fa-twitter"></i></div>
+				<div class="social"><i class="fab fa-linkedin-in"></i></div>
+				<div class="social"><i class="fab fa-whatsapp"></i></div>				
+			</div>
+		</div>
+		<div id="f2">
+			<div class="ftitle">VỊ TRÍ</div>
+			<div id="locate">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.6483964306335!2d105.78100147185549!3d21.04675004432328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab325dc97109%3A0x89b77eda220fbe6a!2zMjM1IEhvw6BuZyBRdeG7kWMgVmnhu4d0LCBOZ2jEqWEgVMOibiwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1745282918901!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+		<div id="f3">
+			<div class="ftitle">LIÊN HỆ</div>	
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-location-dot"></i></div>235 Hoàng Quốc Việt, Cổ Nhuế 1,<br> Bắc Từ Liêm, Hà Nội
+			</div>
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-phone"></i></div>01234567892 <br> 0166771508	
+			</div>
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-envelope"></i></div>abc.media@gmail.com<br>loc.media@gmail.com		
+			</div>
+		</div>
+	</div>
+	<div id="backtostart">
+		<div id="iback">
+		</div>
+	</div>
+</div>
+<div id="ai">
+	<div id="fixed">
+	<div id="iai">
+			<a href="#" style="text-decoration:none;color:white;"><i class="fa-regular fa-house"></i></a>	
+	</div>
+	</div>
+</div>
+<div id="cpr" style="text-align:center;font-size:18px;padding:20px;">Copyright 2025 BaBepFood. All Rights Reserved.</div>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
