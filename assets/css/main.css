@@ -90,7 +90,6 @@ li
 #header-mid>input 
 {
     flex-grow: 1;
-    flex-basis: 0;
     height: 40px;
     margin-top: 0;
     margin-left: 10px;
