@@ -7,7 +7,7 @@ body{
   color: #333131;
   line-height: 1.6;
 }
-.container{
+.container_gt{
   max-width: 1000px;
   margin: auto;
 }
