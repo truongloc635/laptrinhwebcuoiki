@@ -29,11 +29,6 @@ h2, h3{
 }
 p, li, blockquote{
   font-size: 1rem;
-  margin-bottom: 15px;
-}
-ul{
-  list-style: none;
-  padding: 0;
 }
 blockquote{
   background-color: #e0d5cb;
@@ -42,7 +37,7 @@ blockquote{
   margin: 20px 0;
   font-style: italic;
 }
-img{
+.gioithieu img{
   display: block;
   max-width: 100%;
   height: auto;
@@ -53,9 +48,10 @@ img{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 20px;
   margin: 40px 0;
-}
+} 
 .chinhanh img{
   width: 45%;
   max-width: 500px;
@@ -71,7 +67,7 @@ img{
   flex-direction: row-reverse;
   gap: 20px;
   margin-top: 30px;
-}
+} 
 .chinhanhdaonguoc img{
   width: 45%;
   max-width: 500px;
@@ -81,7 +77,6 @@ img{
   flex: 1;
   min-width: 250px;
 }
-
 .khung{
   display: flex;
   justify-content: center;
@@ -92,7 +87,6 @@ img{
 .o{
   background-color: #f1e6e6;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 310px;
   transition: transform 0.3s;
@@ -108,11 +102,11 @@ img{
 }
 .o_anh:hover{
   transform: translateY(-10px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
 }
-.o:hover .o_anh img {
+.o:hover .o_anh img{
   transform: scale(1.1);
 }
+
 .o h4{
   font-size: 1.3rem;
   margin: 20px 0 10px;
@@ -131,4 +125,30 @@ img{
   margin-top: 40px;
   font-style: italic;
 }
-
+/* responsive */
+@media (max-width:800px){
+  .chinhanh{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .chinhanh img{
+    width: 100%;
+  }
+  .chinhanhdaonguoc{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .chinhanhdaonguoc img{
+    width: 100%;
+  }
+  .camket p{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .quytrinh figcaption{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

@@ -28,7 +28,7 @@ body{
     font-size: 20px;
     color: #434242;
 }
-.news-grid{
+.news-cards{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 40px;
