@@ -232,7 +232,7 @@ li
 	font-size:40px;
 	position:absolute;
 	right:100;
-	bottom:180;
+	bottom: 140px;
 	display:none;
 }	
 #header-mid-min
@@ -385,7 +385,6 @@ li
 	left:0;
 	width:40%;
 	height:3px;
-	background-image: linear-gradient(to right,#b5292f, transparent);
 }	
 #mxh
 {

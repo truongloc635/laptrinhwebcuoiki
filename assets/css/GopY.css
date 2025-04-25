@@ -7,11 +7,10 @@ body{
     background-color: #ece4e4;
     color: #302f2f;
     line-height: 1.6;
-    padding: 20px;
 }
 #feedback{
     max-width: 800px;
-    margin: 30px auto;
+    margin: 10px auto;
     padding: 30px;
     background: white;
     border-radius: 10px;

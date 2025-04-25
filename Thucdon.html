@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực đơn</title>
+    <link rel="stylesheet" href="assets/css/Thucdon.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/font/font-awesome-pro-v6-6.2.0/css/all.min.css">
+</head>
+<body>
+    <!--header-->
+ <header>
+    <div id="header-top">
+        <div id="header-mid-min">
+                <span id="search-icon-min">
+                    <i class="fa-light fa-magnifying-glass"></i>
+                </span>
+                <input type="text" placeholder="Tìm kiếm món ăn. . .">
+                <i id="son" style="color:red;" class="fa-light fa-circle-xmark" onclick="hidesearchclick();"></i>
+        </div>
+        <div id="main-header">
+            <div id="menu-tog">
+                    <i class="fa-solid fa-bars" onclick="barmenu();"></i>
+            </div>
+            <img id="header-left" src="assets/images/logo_moi.png">
+            <div id="header-mid">
+                <span id="search-icon">
+                    <i class="fa-light fa-magnifying-glass" onclick="searchclick();"></i>
+                </span>
+                <input type="text" placeholder="Tìm kiếm món ăn. . .">
+            </div>
+            <div id="header-right">
+                <span id="phone-icon">
+                    <i class="fa-light fa-phone"></i>				
+                    <span class="text">Liên hệ</span>
+                </span>
+                <div id="user-icon">
+                    <i class="fa-light fa-user"></i>
+                    <span class="text">Tài khoản</span>	
+                    <ul id="menu-login">
+                        <li>
+                            <a id="login" href="">
+                                <i style="color:#b5292f;" class="fa-light fa-right-to-bracket"></i>Đăng nhập
+                            </a>
+                        </li>
+                        <li>
+                            <a id="login" href="">
+                                <i style="color:#b5292f;" class="fa-light fa-user-plus"></i>Đăng ký
+                            </a>
+                        </li>						
+                    </ul>
+                </div>
+                <span id="store-icon">
+                    <i class="fa-light fa-basket-shopping"></i>
+                    <span class="text">Giỏ hàng</span>	
+                </span>
+            </div>
+        </div>
+    </div>
+    <hr style="width: 100%; height: 1px; background-color: rgb(239,239,239); border: none; margin: 0;">
+    <div id="header-bottom">
+        <div id="logofmedia">
+            <img src="assets/images/logo_moi.png" style="width:100%;height:100%;">
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a class="nav-menu" href="index.html">TRANG CHỦ</a></li>
+                <li><a class="nav-menu" href="Gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a class="active" href="Thucdon.html">THỰC ĐƠN</a></li>
+                <li><a class="nav-menu" href="Datban.html">ĐẶT BÀN</a></li>
+                <li><a class="nav-menu" href="Tintuc.html">TIN TỨC</a></li>
+                <li><a class="nav-menu" href="GopY.html">GÓP Ý</a></li>
+            </ul>
+            <i id="huy" class="fa-light fa-circle-xmark" onclick="hidebarmenu();"></i>
+        </div>
+    </div>
+</header>
+<!--Thực Đơn-->
+    <section class="container-td">
+        <section class="menu-intro">
+            <h2>Thực Đơn Của Chúng Tôi</h2>
+            <p>Khám phá những món ăn ngon được chế biến từ nguyên liệu tươi ngon</p>
+        </section>
+        <div class="menu-td">
+            <ul>
+				<li><a class="menu-ct" href="#">Tất cả</a></li>
+				<li><a class="menu-ct" href="#khaivi">Khai vị</a></li>
+				<li><a class="menu-ct" href="#chinh">Món chính</a></li>
+				<li><a class="menu-ct" href="#trangmieng">Tráng miệng</a></li>
+				<li><a class="menu-ct" href="#douong">Đồ uống</a></li>
+			</ul>
+        </div>
+
+        <section class="menu-items">
+            <!-- Món khai vị -->
+
+            <div class="menu-item" id="khaivi">
+                <div class="item-image">
+                    <img src="assets/images/goi_cuon.jpg" alt="Gỏi Cuốn">
+                </div>
+                <div class="item-info">
+                    <h3>Gỏi Cuốn</h3>
+                    <p class="item-description">Gỏi cuốn tôm thịt với rau sống tươi, bánh tráng mỏng, chấm nước mắm pha chua ngọt</p>
+                    <p class="item-price">45.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-image">
+                    <img src="assets/images/cha_gio.jpg" alt="Chả Giò">
+                </div>
+                <div class="item-info">
+                    <h3>Chả Giò</h3>
+                    <p class="item-description">Chả giò truyền thống nhân thịt heo, tôm, mộc nhĩ, củ sắn, cuốn bánh tráng chiên giòn</p>
+                    <p class="item-price">55.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-image">
+                    <img src="assets/images/nom_hoa_chuoi.jpg" alt="">
+                </div>
+                <div class="item-info">
+                    <h3>Nộm Hoa Chuối Nem Tai</h3>
+                    <p class="item-description">Hoa chuối tươi kết hợp với tai heo giòn rụm , thêm hương vị khó quên</p>
+                    <p class="item-price">50.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-image">
+                    <img src="assets/images/nom_bo_kho.jpg" alt="Nộm Bò Khô">
+                </div>
+                <div class="item-info">
+                    <h3>Nộm Nộm Bò Khô</h3>
+                    <p class="item-description">Món ăn thanh mát với cà rốt ,su hào , kết hợp với rau thơm và mắm nêm </p>
+                    <p class="item-price">50.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-image">
+                    <img src="assets/images/nom_ga_tuoi.jpg" alt="Nộm gà">
+                </div>
+                <div class="item-info">
+                    <h3>Nộm gà</h3>
+                    <p class="item-description">Hoa chuối tươi kết hợp với thịt gà ta giai giòn khó cưỡng</p>
+                    <p class="item-price">50.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-image">
+                    <img src="assets/images/rau_xao_ngu_sac.jpg" alt="Rau Củ Xào">
+                </div>
+                <div class="item-info">
+                    <h3>Rau Củ Xào</h3>
+                    <p class="item-description">Nấm đùi gà, Ớt chuông , bông cải xanh cà rốt , ngô tạo nên sự thanh đạm mà vẫn ngon</p>
+                    <p class="item-price">50.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <!-- Món chính -->
+            <div class="menu-item" id="chinh">
+                <div class="item-image">
+                    <img src="assets/images/bun_bo.jpg" alt="Bún bò">
+                </div>
+                <div class="item-info">
+                    <h3>Bún Bò</h3>
+                    <p class="item-description">Bún bò truyền thống với nước dùng đậm đà, thịt bò tái, sợi bún mềm</p>
+                    <p class="item-price">65.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/bun_rieu_chay.webp" alt="Bún riêu">
+                </div>
+                <div class="item-info">
+                    <h3>Bún Riêu</h3>
+                    <p class="item-description">Bún riêu Hà Nội với chả viên nướng, cua đồng nguyên chất , hương vị đậm đà</p>
+                    <p class="item-price">70.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-image">
+                    <img src="assets/images/com_tam_suon.jpg" alt="Cơm Tấm">
+                </div>
+                <div class="item-info">
+                    <h3>Cơm Tấm Sườn Nướng</h3>
+                    <p class="item-description">Cơm tấm sườn nướng thơm ngon, kèm bì, chả trứng và đồ chua</p>
+                    <p class="item-price">75.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/com_vit_quay.jpg" alt="Cơm vịt quay">
+                </div>
+                <div class="item-info">
+                    <h3>Cơm Vịt Quay</h3>
+                    <p class="item-description">Vịt quay với phong cách Cao Bằng có gia vị và màu sắp siêu hấp dẫn</p>
+                    <p class="item-price">100.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/bun_ca.jpg" alt="Bún Cá">
+                </div>
+                <div class="item-info">
+                    <h3>Bún Cá</h3>
+                    <p class="item-description">Bún cá được dùng công thức gia truyền từ cao nhân thời trước</p>
+                    <p class="item-price">65.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-image">
+                    <img src="assets/images/bo_sot_vang.jpg" alt="Bò Sốt Vang">
+                </div>
+                <div class="item-info">
+                    <h3>Bò Sốt Vang</h3>
+                    <p class="item-description">Thịt bò tươi được tuyển chọn kĩ càng , kết hợp với gân  giai giòn</p>
+                    <p class="item-price">75.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-image">
+                    <img src="assets/images/ca_chien_sot_mam_toi.webp" alt="Cá Chiên Sốt Mắm Tỏi">
+                </div>
+                <div class="item-info">
+                    <h3>Cá Chiên Sốt Mắm Tỏi</h3>
+                    <p class="item-description">Thịt cá với phiên bản phù hợp với khách hàng thích ăn món chiên</p>
+                    <p class="item-price">125.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-image">
+                    <img src="assets/images/cha_muc.jpg" alt="Chả Mực">
+                </div>
+                <div class="item-info">
+                    <h3>Chả Mực</h3>
+                    <p class="item-description">Được nhập trực tiếp từ Quảng Ninh rồi chiên tại quán ,không chất bảo quản</p>
+                    <p class="item-price">80.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-image">
+                    <img src="assets/images/chan_gio_chien.jpg" alt="Chân Giò Chiên">
+                </div>
+                <div class="item-info">
+                    <h3>Chân Giò Chiên</h3>
+                    <p class="item-description">Món ăn độc đáo với kiểu chế biến signature của cửa hàng</p>
+                    <p class="item-price">275.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <!-- Món tráng miệng -->
+            <div class="menu-item" id="trangmieng">
+                <div class="item-image">
+                    <img src="assets/images/che_buoi.jpg" alt="Chè bưởi">
+                </div>
+                <div class="item-info">
+                    <h3>Chè Bưởi</h3>
+                    <p class="item-description">Chè bưởi thạch trà xanh, hạt sen, nước cốt dừa thơm ngon</p>
+                    <p class="item-price">35.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/banh_chuoi_nuong.jpg" alt="Bánh chuối nướng">
+                </div>
+                <div class="item-info">
+                    <h3>Bánh Chuối Nướng</h3>
+                    <p class="item-description">Chuối tươi kết hợp với bột nếp thơm lừng , đánh thức giác quan</p>
+                    <p class="item-price">30.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/banh_cookie_dua.jpg" alt="Bánh cookie dừa">
+                </div>
+                <div class="item-info">
+                    <h3>Bánh Cookie Dừa</h3>
+                    <p class="item-description">Bánh cookie kết hợp văn hóa Châu Âu thơm ngon đậm vị</p>
+                    <p class="item-price">30.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/che_com_la_dua.jpg" alt="Chè Cốm Lá Dứa">
+                </div>
+                <div class="item-info">
+                    <h3>Chè Cốm Lá Dứa</h3>
+                    <p class="item-description">Kết hợp độc đáo từ dừa và cốm tạo nên hương vị khó quên</p>
+                    <p class="item-price">35.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/banh_phomai_suanuong.jpg" alt="Bánh Phô_Mai Sữa">
+                </div>
+                <div class="item-info">
+                    <h3>Bánh Phô Mai Sữa</h3>
+                    <p class="item-description">Sữa bò tươi cùng với phô mai béo ngậy , sự hòa hợp tuyệt đối</p>
+                    <p class="item-price">50.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/banh_bonglan_chanh.jpg" alt="Bánh Bông Lan Chanh">
+                </div>
+                <div class="item-info">
+                    <h3>Bánh Bông Lan Chanh</h3>
+                    <p class="item-description">Bánh bông lan truyên thống được quết lên trên với chanh tươi </p>
+                    <p class="item-price">70.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <!-- Đồ uống -->
+            <div class="menu-item" id="douong">
+                <div class="item-image">
+                    <img src="assets/images/tra_da.jpg" alt="Trà Đá">
+                </div>
+                <div class="item-info">
+                    <h3>Trà Đá</h3>
+                    <p class="item-description">Trà đá truyền thống giải nhiệt</p>
+                    <p class="item-price">10.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/nuoc_cam.jpg" alt="Nước Cam">
+                </div>
+                <div class="item-info">
+                    <h3>Nước Cam Ép</h3>
+                    <p class="item-description">Nước cam ép tươi nguyên chất</p>
+                    <p class="item-price">40.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/tra_tac.jpg" alt="Trà tắc">
+                </div>
+                <div class="item-info">
+                    <h3>Trà Tắc Mật Ong</h3>
+                    <p class="item-description">Trà tắc với mật ong rừng , nghe đã hấp dẫn</p>
+                    <p class="item-price">25.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+            
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/nuoc_ep_dau_tay.jpg" alt="Nước Ép Dâu">
+                </div>
+                <div class="item-info">
+                    <h3>Nước Ép Dâu</h3>
+                    <p class="item-description">Trái dâu tươi sẽ mang lại cảm giác mới lạ cho bạn</p>
+                    <p class="item-price">55.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/tra_dao_cam_sa.jpg" alt="Trà Đào Cam Sả">
+                </div>
+                <div class="item-info">
+                    <h3>Trà Đào Cam Sả</h3>
+                    <p class="item-description">Đậm vị đào bùng vị sả</p>
+                    <p class="item-price">25.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+            <div class="menu-item" >
+                <div class="item-image">
+                    <img src="assets/images/tra_thao_duoc.jpg" alt="Trà Thảo Dược">
+                </div>
+                <div class="item-info">
+                    <h3>Trà Thảo Dược</h3>
+                    <p class="item-description">Nhẹ nhàng thanh mát , tươi tắn tràn đầy</p>
+                    <p class="item-price">20.000đ</p>
+                    <a>Đặt món</a>
+                </div>
+            </div>
+
+
+
+        </section>
+    </section>
+
+<!--Footer-->
+
+<div id="footer">
+	<div id="main-footer">
+		<div id="f1">
+			<div class="ftitle">VỀ CHÚNG TÔI</div>
+			<p style="margin-top:25px;font-size:16px;line-height:1.5;">BaBepFood là thương hiệu được thành lập vào năm 2025 với tiêu chí đặt chất lượng dịch vụ lên hàng đầu.</p>
+		</div>
+		<div id="f2">
+			<div class="ftitle">VỊ TRÍ</div>
+			<div id="locate">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.6483964306335!2d105.78100147185549!3d21.04675004432328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab325dc97109%3A0x89b77eda220fbe6a!2zMjM1IEhvw6BuZyBRdeG7kWMgVmnhu4d0LCBOZ2jEqWEgVMOibiwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1745282918901!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+		<div id="f3">
+			<div class="ftitle">LIÊN HỆ</div>	
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-location-dot"></i></div>235 Hoàng Quốc Việt, Cổ Nhuế 
+			</div>
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-phone"></i></div>01234567892 <br> 0166771508	
+			</div>
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-envelope"></i></div>abc.media@gmail.com<br>loc.media@gmail.com		
+			</div>
+		</div>
+	</div>
+	<div id="backtostart">
+		<div id="iback">
+		</div>
+	</div>
+</div>
+<div id="ai">
+	<div id="fixed">
+	<div id="iai">
+			<a href="#" style="text-decoration:none;color:white;"><i class="fa-regular fa-house"></i></a>	
+	</div>
+	</div>
+</div>
+<div id="cpr" style="text-align:center;font-size:18px;padding:20px;">Copyright 2025 BaBepFood. All Rights Reserved.</div>
+<script src="js/main.js"></script>
+
+</body>
+</html>
