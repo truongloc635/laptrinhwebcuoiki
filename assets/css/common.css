@@ -1,0 +1,23 @@
+
+  .item-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  
+  button {
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #de0e0e;
+  }
+  
