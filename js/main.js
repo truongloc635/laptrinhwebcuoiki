@@ -41,7 +41,7 @@ function hidebarmenu()
 	}	
 }
 window.addEventListener('scroll',function(){
-	var x=document.getElementById("fixed");
+	var x=document.getElementById("fixed0");
 	if(window.scrollY<150)	
 	{
 		x.style.position="static";
@@ -49,7 +49,7 @@ window.addEventListener('scroll',function(){
 	else
 	{
 		x.style.position="fixed";
-		x.style.bottom="50px";
+		x.style.bottom="100px";
 	    x.style.right="0px";
 	}	
 });	

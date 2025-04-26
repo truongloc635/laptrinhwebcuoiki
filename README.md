@@ -2,8 +2,8 @@
 
 sử dụng terminal / cmd / bash 
 
-- cd backend 
+- cd backend
+- python -m venv env >> activate env 
 - pip install -r requirements.txt
-- Mở một terminal / bash / cmd mới >>> cd backend >>> uvicorn main::app --reload --port 8001
-- Mở một terminal mới >>> cd backend >>>> cd .. >> python -m http.server 
+- Mở một terminal / bash / cmd mới >>> cd backend >>> uvicorn main:app --reload --port 8000
 - Mở localhost tương ứng với port vừa được chạy 

@@ -233,10 +233,18 @@
 	{
 		margin-right:5px;
 	}	
-	#fixed
+	#fixed0
 	{
 		margin-right:5px;
+		width:30px;
+		height:30px;
 	}
+	#fixed1
+	{
+		margin-right:5px;
+		width:30px;
+		height:30px;		
+	}	
 	
 }
 /*950*/
@@ -499,8 +507,12 @@
 	{
 		margin-right:20px;
 	}	
-	#fixed
+	#fixed0
 	{
-		margin-right:20px;
+		margin-right:10px;
 	}	
+	#fixed1
+	{
+		margin-right:10px;
+	}
 }	

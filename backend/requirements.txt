@@ -1,0 +1,8 @@
+uvicorn 
+sqlalchemy 
+jinja2
+numpy
+pandas
+fastapi
+langchain-together
+dotenv

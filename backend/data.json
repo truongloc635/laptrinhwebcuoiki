@@ -1,0 +1,452 @@
+{
+    "Phở bò": [
+        {
+            "Giá tiền": "40,000 VND",
+            "Hương vị": "Đậm đà, thơm mùi quế và hồi",
+            "Phù hợp với": "Người thích món nước, truyền thống",
+            "Đối tượng nên ăn": "Người lớn, người bệnh cần hồi sức",
+            "Bối cảnh nên ăn": "Bữa sáng, ăn cùng gia đình"
+        }
+    ],
+    "Bún chả": [
+        {
+            "Giá tiền": "35,000 VND",
+            "Hương vị": "Chua ngọt, thơm mùi nướng",
+            "Phù hợp với": "Người thích món nướng và nước chấm",
+            "Đối tượng nên ăn": "Người trưởng thành, khách nước ngoài",
+            "Bối cảnh nên ăn": "Bữa trưa hoặc tối, liên hoan nhẹ"
+        }
+    ],
+    "Cơm tấm": [
+        {
+            "Giá tiền": "40,000 VND",
+            "Hương vị": "Đậm đà, béo nhẹ từ sườn nướng",
+            "Phù hợp với": "Người cần bữa ăn no",
+            "Đối tượng nên ăn": "Sinh viên, người đi làm",
+            "Bối cảnh nên ăn": "Bữa trưa, tối ngoài đường"
+        }
+    ],
+    "Gỏi cuốn": [
+        {
+            "Giá tiền": "30,000 VND",
+            "Hương vị": "Thanh mát, nhẹ nhàng",
+            "Phù hợp với": "Người ăn kiêng, ăn nhẹ",
+            "Đối tượng nên ăn": "Phụ nữ, người ăn healthy",
+            "Bối cảnh nên ăn": "Bữa phụ, ăn vặt"
+        }
+    ],
+    "Bánh xèo": [
+        {
+            "Giá tiền": "35,000 VND",
+            "Hương vị": "Giòn rụm, béo thơm",
+            "Phù hợp với": "Người thích món chiên",
+            "Đối tượng nên ăn": "Gia đình, nhóm bạn",
+            "Bối cảnh nên ăn": "Cuối tuần, họp mặt"
+        }
+    ],
+    "Nem nướng Nha Trang": [
+        {
+            "Giá tiền": "35,000 VND",
+            "Hương vị": "Thơm nồng, đậm đà gia vị",
+            "Phù hợp với": "Người thích món nướng, cuốn rau",
+            "Đối tượng nên ăn": "Giới trẻ, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa tối, tiệc tùng"
+        }
+    ],
+    "Bún bò Huế": [
+        {
+            "Giá tiền": "45,000 VND",
+            "Hương vị": "Cay nồng, đậm vị nước lèo",
+            "Phù hợp với": "Người thích món cay, nước",
+            "Đối tượng nên ăn": "Người lớn, người thích khám phá",
+            "Bối cảnh nên ăn": "Bữa trưa, ngày se lạnh"
+        }
+    ],
+    "Bánh mì pate": [
+        {
+            "Giá tiền": "25,000 VND",
+            "Hương vị": "Béo ngậy, giòn thơm",
+            "Phù hợp với": "Người thích ăn nhanh, tiện lợi",
+            "Đối tượng nên ăn": "Học sinh, người bận rộn",
+            "Bối cảnh nên ăn": "Bữa sáng, ăn vặt"
+        }
+    ],
+    "Cao lầu": [
+        {
+            "Giá tiền": "40,000 VND",
+            "Hương vị": "Dai giòn, đậm vị nước sốt",
+            "Phù hợp với": "Người thích món khô, độc đáo",
+            "Đối tượng nên ăn": "Khách du lịch, người thích ẩm thực miền Trung",
+            "Bối cảnh nên ăn": "Bữa trưa, khám phá Hội An"
+        }
+    ],
+    "Chả cá Lã Vọng": [
+        {
+            "Giá tiền": "60,000 VND",
+            "Hương vị": "Thơm lừng, béo ngậy cá ướp nghệ",
+            "Phù hợp với": "Người thích món cá, chiên",
+            "Đối tượng nên ăn": "Gia đình, khách nước ngoài",
+            "Bối cảnh nên ăn": "Bữa tối, tiệc gia đình"
+        }
+    ],
+    "Mì Quảng": [
+        {
+            "Giá tiền": "35,000 VND",
+            "Hương vị": "Đậm đà, thơm mùi đậu phộng",
+            "Phù hợp với": "Người thích món khô, miền Trung",
+            "Đối tượng nên ăn": "Người lớn, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa trưa, họp mặt bạn bè"
+        }
+    ],
+    "Bánh cuốn": [
+        {
+            "Giá tiền": "30,000 VND",
+            "Hương vị": "Mềm mịn, thanh nhẹ",
+            "Phù hợp với": "Người thích món hấp, nhẹ",
+            "Đối tượng nên ăn": "Người lớn tuổi, trẻ em",
+            "Bối cảnh nên ăn": "Bữa sáng, ăn gia đình"
+        }
+    ],
+    "Hủ tiếu Nam Vang": [
+        {
+            "Giá tiền": "40,000 VND",
+            "Hương vị": "Ngọt thanh, thơm mùi tôm khô",
+            "Phù hợp với": "Người thích món nước, đa dạng topping",
+            "Đối tượng nên ăn": "Người trưởng thành, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa trưa, cuối tuần"
+        }
+    ],
+    "Lẩu thái": [
+        {
+            "Giá tiền": "150,000 VND",
+            "Hương vị": "Chua cay, đậm đà hải sản",
+            "Phù hợp với": "Người thích món lẩu, cay",
+            "Đối tượng nên ăn": "Nhóm bạn, gia đình",
+            "Bối cảnh nên ăn": "Bữa tối, tiệc tùng"
+        }
+    ],
+    "Gỏi gà xé phay": [
+        {
+            "Giá tiền": "50,000 VND",
+            "Hương vị": "Chua ngọt, thơm mùi rau răm",
+            "Phù hợp với": "Người thích món gỏi, nhẹ",
+            "Đối tượng nên ăn": "Phụ nữ, người ăn kiêng",
+            "Bối cảnh nên ăn": "Bữa phụ, khai vị"
+        }
+    ],
+    "Bò kho": [
+        {
+            "Giá tiền": "45,000 VND",
+            "Hương vị": "Đậm đà, thơm mùi gia vị",
+            "Phù hợp với": "Người thích món hầm, no lâu",
+            "Đối tượng nên ăn": "Người lớn, người lao động",
+            "Bối cảnh nên ăn": "Bữa trưa, ngày lạnh"
+        }
+    ],
+    "Xôi gà": [
+        {
+            "Giá tiền": "30,000 VND",
+            "Hương vị": "Dẻo thơm, béo nhẹ",
+            "Phù hợp với": "Người thích món xôi, ăn nhanh",
+            "Đối tượng nên ăn": "Học sinh, người bận rộn",
+            "Bối cảnh nên ăn": "Bữa sáng, ăn vặt"
+        }
+    ],
+    "Bánh bèo": [
+        {
+            "Giá tiền": "25,000 VND",
+            "Hương vị": "Mềm mịn, thơm mùi tôm cháy",
+            "Phù hợp với": "Người thích món Huế, nhẹ",
+            "Đối tượng nên ăn": "Phụ nữ, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa phụ, ăn vặt"
+        }
+    ],
+    "Canh chua cá lóc": [
+        {
+            "Giá tiền": "60,000 VND",
+            "Hương vị": "Chua thanh, đậm đà",
+            "Phù hợp với": "Người thích món canh, dân dã",
+            "Đối tượng nên ăn": "Gia đình, người lớn",
+            "Bối cảnh nên ăn": "Bữa trưa, cơm nhà"
+        }
+    ],
+    "Chè ba màu": [
+        {
+            "Giá tiền": "20,000 VND",
+            "Hương vị": "Ngọt mát, thơm mùi lá dứa",
+            "Phù hợp với": "Người thích món tráng miệng",
+            "Đối tượng nên ăn": "Trẻ em, phụ nữ",
+            "Bối cảnh nên ăn": "Bữa phụ, giải nhiệt"
+        }
+    ],
+    "Bánh bột lọc": [
+        {
+            "Giá tiền": "25,000 VND",
+            "Hương vị": "Dai giòn, thơm mùi tôm",
+            "Phù hợp với": "Người thích món Huế, ăn vặt",
+            "Đối tượng nên ăn": "Giới trẻ, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa phụ, cuối tuần"
+        }
+    ],
+    "Bún riêu cua": [
+        {
+            "Giá tiền": "35,000 VND",
+            "Hương vị": "Chua nhẹ, thơm mùi cua",
+            "Phù hợp với": "Người thích món nước, dân dã",
+            "Đối tượng nên ăn": "Người lớn, trẻ em",
+            "Bối cảnh nên ăn": "Bữa trưa, ngày hè"
+        }
+    ],
+    "Cơm gà Hội An": [
+        {
+            "Giá tiền": "40,000 VND",
+            "Hương vị": "Thơm nồng, béo nhẹ",
+            "Phù hợp với": "Người thích món cơm, truyền thống",
+            "Đối tượng nên ăn": "Khách du lịch, người lớn",
+            "Bối cảnh nên ăn": "Bữa trưa, khám phá"
+        }
+    ],
+    "Bánh khoái": [
+        {
+            "Giá tiền": "30,000 VND",
+            "Hương vị": "Giòn rụm, thơm mùi tôm",
+            "Phù hợp với": "Người thích món chiên, Huế",
+            "Đối tượng nên ăn": "Gia đình, nhóm bạn",
+            "Bối cảnh nên ăn": "Bữa tối, họp mặt"
+        }
+    ],
+    "Nem chua rán": [
+        {
+            "Giá tiền": "20,000 VND",
+            "Hương vị": "Chua cay, giòn thơm",
+            "Phù hợp với": "Người thích món chiên, ăn vặt",
+            "Đối tượng nên ăn": "Giới trẻ, học sinh",
+            "Bối cảnh nên ăn": "Bữa phụ, ăn chơi"
+        }
+    ],
+    "Bún thịt nướng": [
+        {
+            "Giá tiền": "35,000 VND",
+            "Hương vị": "Thơm lừng, chua ngọt",
+            "Phù hợp với": "Người thích món nướng, nước chấm",
+            "Đối tượng nên ăn": "Giới trẻ, người đi làm",
+            "Bối cảnh nên ăn": "Bữa trưa, ăn ngoài"
+        }
+    ],
+    "Cơm hến": [
+        {
+            "Giá tiền": "30,000 VND",
+            "Hương vị": "Thơm nồng, đậm vị dân dã",
+            "Phù hợp với": "Người thích món Huế, độc đáo",
+            "Đối tượng nên ăn": "Khách du lịch, người lớn",
+            "Bối cảnh nên ăn": "Bữa trưa, khám phá"
+        }
+    ],
+    "Bánh ướt thịt nướng": [
+        {
+            "Giá tiền": "35,000 VND",
+            "Hương vị": "Mềm mịn, thơm mùi nướng",
+            "Phù hợp với": "Người thích món cuốn, nhẹ",
+            "Đối tượng nên ăn": "Giới trẻ, phụ nữ",
+            "Bối cảnh nên ăn": "Bữa tối, ăn vặt"
+        }
+    ],
+    "Lẩu bò": [
+        {
+            "Giá tiền": "150,000 VND",
+            "Hương vị": "Đậm đà, thơm mùi sa tế",
+            "Phù hợp với": "Người thích món lẩu, no lâu",
+            "Đối tượng nên ăn": "Nhóm bạn, gia đình",
+            "Bối cảnh nên ăn": "Bữa tối, tiệc tùng"
+        }
+    ],
+    "Bánh canh chả cá": [
+        {
+            "Giá tiền": "35,000 VND",
+            "Hương vị": "Ngọt thanh, dai mềm",
+            "Phù hợp với": "Người thích món nước, dân dã",
+            "Đối tượng nên ăn": "Người lớn, trẻ em",
+            "Bối cảnh nên ăn": "Bữa trưa, ngày mát"
+        }
+    ],
+    "Chả lụi": [
+        {
+            "Giá tiền": "30,000 VND",
+            "Hương vị": "Thơm nồng, đậm vị nướng",
+            "Phù hợp với": "Người thích món nướng, cuốn",
+            "Đối tượng nên ăn": "Giới trẻ, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa tối, ăn vặt"
+        }
+    ],
+    "Cơm chiên dương châu": [
+        {
+            "Giá tiền": "40,000 VND",
+            "Hương vị": "Thơm ngon, đậm đà",
+            "Phù hợp với": "Người thích món chiên, no lâu",
+            "Đối tượng nên ăn": "Học sinh, người đi làm",
+            "Bối cảnh nên ăn": "Bữa trưa, tối nhanh"
+        }
+    ],
+    "Bánh nậm": [
+        {
+            "Giá tiền": "20,000 VND",
+            "Hương vị": "Mềm mịn, thơm mùi tôm",
+            "Phù hợp với": "Người thích món Huế, nhẹ",
+            "Đối tượng nên ăn": "Phụ nữ, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa phụ, ăn vặt"
+        }
+    ],
+    "Gỏi sứa trộn": [
+        {
+            "Giá tiền": "50,000 VND",
+            "Hương vị": "Giòn sần sật, chua ngọt",
+            "Phù hợp với": "Người thích món gỏi, hải sản",
+            "Đối tượng nên ăn": "Người lớn, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa phụ, khai vị"
+        }
+    ],
+    "Bún mắm nêm": [
+        {
+            "Giá tiền": "35,000 VND",
+            "Hương vị": "Nồng thơm, đậm vị mắm",
+            "Phù hợp với": "Người thích món đậm đà, miền Trung",
+            "Đối tượng nên ăn": "Người lớn, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa trưa, khám phá"
+        }
+    ],
+    "Cá kho tộ": [
+        {
+            "Giá tiền": "60,000 VND",
+            "Hương vị": "Đậm đà, thơm mùi tiêu",
+            "Phù hợp với": "Người thích món kho, dân dã",
+            "Đối tượng nên ăn": "Gia đình, người lớn",
+            "Bối cảnh nên ăn": "Bữa trưa, cơm nhà"
+        }
+    ],
+    "Bánh ít lá gai": [
+        {
+            "Giá tiền": "15,000 VND",
+            "Hương vị": "Ngọt nhẹ, dẻo thơm",
+            "Phù hợp với": "Người thích món ngọt, truyền thống",
+            "Đối tượng nên ăn": "Trẻ em, người lớn tuổi",
+            "Bối cảnh nên ăn": "Bữa phụ, quà tặng"
+        }
+    ],
+    "Bún nước lèo": [
+        {
+            "Giá tiền": "35,000 VND",
+            "Hương vị": "Ngọt thanh, thơm mùi mắm",
+            "Phù hợp với": "Người thích món nước, miền Tây",
+            "Đối tượng nên ăn": "Người lớn, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa trưa, ngày hè"
+        }
+    ],
+    "Thịt kho tàu": [
+        {
+            "Giá tiền": "50,000 VND",
+            "Hương vị": "Đậm đà, béo ngậy",
+            "Phù hợp với": "Người thích món kho, no lâu",
+            "Đối tượng nên ăn": "Gia đình, người lớn",
+            "Bối cảnh nên ăn": "Bữa trưa, cơm nhà"
+        }
+    ],
+    "Bánh chưng": [
+        {
+            "Giá tiền": "50,000 VND",
+            "Hương vị": "Dẻo thơm, đậm vị đậu xanh",
+            "Phù hợp với": "Người thích món truyền thống",
+            "Đối tượng nên ăn": "Gia đình, người lớn tuổi",
+            "Bối cảnh nên ăn": "Tết, lễ hội"
+        }
+    ],
+    "Chè đậu đỏ": [
+        {
+            "Giá tiền": "20,000 VND",
+            "Hương vị": "Ngọt thanh, bùi béo",
+            "Phù hợp với": "Người thích món tráng miệng",
+            "Đối tượng nên ăn": "Trẻ em, phụ nữ",
+            "Bối cảnh nên ăn": "Bữa phụ, giải nhiệt"
+        }
+    ],
+    "Bánh tét": [
+        {
+            "Giá tiền": "50,000 VND",
+            "Hương vị": "Dẻo thơm, đậm vị nhân đậu",
+            "Phù hợp với": "Người thích món truyền thống",
+            "Đối tượng nên ăn": "Gia đình, người lớn tuổi",
+            "Bối cảnh nên ăn": "Tết, lễ hội"
+        }
+    ],
+    "Canh khổ qua nhồi thịt": [
+        {
+            "Giá tiền": "50,000 VND",
+            "Hương vị": "Thanh mát, đậm đà",
+            "Phù hợp với": "Người thích món canh, dân dã",
+            "Đối tượng nên ăn": "Gia đình, người lớn",
+            "Bối cảnh nên ăn": "Bữa trưa, cơm nhà"
+        }
+    ],
+    "Bánh da lợn": [
+        {
+            "Giá tiền": "15,000 VND",
+            "Hương vị": "Dẻo mềm, ngọt nhẹ",
+            "Phù hợp với": "Người thích món ngọt, nhẹ",
+            "Đối tượng nên ăn": "Trẻ em, phụ nữ",
+            "Bối cảnh nên ăn": "Bữa phụ, ăn vặt"
+        }
+    ],
+    "Bún ốc": [
+        {
+            "Giá tiền": "35,000 VND",
+            "Hương vị": "Chua thanh, thơm mùi ốc",
+            "Phù hợp với": "Người thích món nước, dân dã",
+            "Đối tượng nên ăn": "Người lớn, trẻ em",
+            "Bối cảnh nên ăn": "Bữa trưa, ngày mát"
+        }
+    ],
+    "Gỏi bò bóp thấu": [
+        {
+            "Giá tiền": "50,000 VND",
+            "Hương vị": "Chua cay, thơm mùi rau",
+            "Phù hợp với": "Người thích món gỏi, đậm đà",
+            "Đối tượng nên ăn": "Người lớn, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa phụ, khai vị"
+        }
+    ],
+    "Bánh căn": [
+        {
+            "Giá tiền": "30,000 VND",
+            "Hương vị": "Giòn thơm, béo nhẹ",
+            "Phù hợp với": "Người thích món chiên, miền Trung",
+            "Đối tượng nên ăn": "Giới trẻ, khách du lịch",
+            "Bối cảnh nên ăn": "Bữa tối, ăn vặt"
+        }
+    ],
+    "Lẩu mắm": [
+        {
+            "Giá tiền": "150,000 VND",
+            "Hương vị": "Nồng thơm, đậm vị mắm",
+            "Phù hợp với": "Người thích món lẩu, miền Tây",
+            "Đối tượng nên ăn": "Nhóm bạn, gia đình",
+            "Bối cảnh nên ăn": "Bữa tối, tiệc tùng"
+        }
+    ],
+    "Bánh khoai mì nướng": [
+        {
+            "Giá tiền": "20,000 VND",
+            "Hương vị": "Dẻo thơm, ngọt nhẹ",
+            "Phù hợp với": "Người thích món ngọt, dân dã",
+            "Đối tượng nên ăn": "Trẻ em, người lớn tuổi",
+            "Bối cảnh nên ăn": "Bữa phụ, ăn vặt"
+        }
+    ],
+    "Chả giò": [
+        {
+            "Giá tiền": "30,000 VND",
+            "Hương vị": "Giòn rụm, thơm mùi nhân thịt",
+            "Phù hợp với": "Người thích món chiên, cuốn",
+            "Đối tượng nên ăn": "Gia đình, nhóm bạn",
+            "Bối cảnh nên ăn": "Bữa phụ, tiệc tùng"
+        }
+    ]
+}
