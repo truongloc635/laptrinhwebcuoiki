@@ -1,0 +1,287 @@
+<html>
+<head>
+	<title>	BA BEP FOOD</title>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="assets/images/favicon_final.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="assets/font/font-awesome-pro-v6-6.2.0/css/all.min.css">
+</head>
+<body>
+<header>
+	<div id="header-top">
+		<div id="header-mid-min">
+				<span id="search-icon-min">
+					<i class="fa-light fa-magnifying-glass"></i>
+				</span>
+				<input type="text" placeholder="Tìm kiếm món ăn. . .">
+				<i id="son" style="color:red;" class="fa-light fa-circle-xmark" onclick="hidesearchclick();"></i>
+		</div>
+		<div id="main-header">
+			<div id="menu-tog">
+				    <i class="fa-solid fa-bars" onclick="barmenu();"></i>
+			</div>
+			<img id="header-left" src="assets/images/logo_moi.png">
+			<div id="header-mid">
+				<span id="search-icon">
+					<i class="fa-light fa-magnifying-glass" onclick="searchclick();"></i>
+				</span>
+				<input type="text" placeholder="Tìm kiếm món ăn. . .">
+			</div>
+			<div id="header-right">
+				<span id="phone-icon">
+					<i class="fa-light fa-phone"></i>				
+					<span class="text">Liên hệ</span>
+				</span>
+				<div id="user-icon">
+					<i class="fa-light fa-user"></i>
+					<span class="text">Tài khoản</span>	
+					<ul id="menu-login">
+						<li>
+							<a id="login" href="">
+								<i style="color:#b5292f;" class="fa-light fa-right-to-bracket"></i>Đăng nhập
+							</a>
+						</li>
+						<li>
+							<a id="login" href="">
+								<i style="color:#b5292f;" class="fa-light fa-user-plus"></i>Đăng ký
+							</a>
+						</li>						
+					</ul>
+				</div>
+				<span id="store-icon">
+					<i class="fa-light fa-basket-shopping"></i>
+					<span class="text">Giỏ hàng</span>	
+				</span>
+			</div>
+		</div>
+	</div>
+	<hr style="width: 100%; height: 1px; background-color: rgb(239,239,239); border: none; margin: 0;">
+	<div id="header-bottom">
+		<div id="logofmedia">
+			<img src="assets/images/logo_moi.png" style="width:100%;height:100%;">
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a class="active" href="">TRANG CHỦ</a></li>
+				<li><a class="nav-menu" href="Gioithieu.html">GIỚI THIỆU</a></li>
+				<li><a class="nav-menu" href="Thucdon.html">THỰC ĐƠN</a></li>
+				<li><a class="nav-menu" href="Datban.html">ĐẶT BÀN</a></li>
+				<li><a class="nav-menu" href="Tintuc.html">TIN TỨC</a></li>
+				<li><a class="nav-menu" href="GopY.html">GÓP Ý</a></li>
+			</ul>
+			<i id="huy" class="fa-light fa-circle-xmark" onclick="hidebarmenu();"></i>
+		</div>
+	</div>
+</header>
+<div id="carousel">
+	<img src="" alt="" style="width: 100%; height:100%">
+</div>
+<div class="service">
+	<div class="homeservice">
+		<div class="homeservice-icon">
+			<i class="fa-light fa-person-carry-box"></i>
+		</div>
+		<div class="caption">
+			<p style="font-size:15px;"><b>GIAO HÀNG NHANH</b></p>
+			<p style="margin-top:7px;">Cho tất cả đơn hàng</p>
+		</div>
+	</div>
+	<div class="homeservice">
+		<div class="homeservice-icon">
+			<i class="fa-light fa-shield-heart"></i>
+		</div>
+		<div class="caption">
+			<p style="font-size:15px;"><b>SẢN PHẦM AN TOÀN</b></p>
+			<p style="margin-top:7px;">Cam kết chất lượng</p>
+		</div>
+	</div>
+	<div class="homeservice">
+		<div class="homeservice-icon">
+			<i class="fa-light fa-headset"></i>
+		</div>
+		<div class="caption">
+			<p style="font-size:15px;"><b>HỖ TRỢ 24/7</b></p>
+			<p style="margin-top:7px;">Tất cả các ngày trong tuần</p>
+		</div>
+	</div>
+	<div class="homeservice">
+		<div class="homeservice-icon">
+			<i class="fa-light fa-circle-dollar"></i>
+		</div>
+		<div class="caption">
+			<p style="font-size:15px;"><b>HOÀN LẠI TIỀN</b></p>
+			<p style="margin-top:7px;">Nếu không hài lòng</p>
+		</div>
+	</div>
+</div>
+<div id="title" ><h2>KHÁM PHÁ THỰC ĐƠN HÔM NAY</h2></div>
+
+<!--hang1-->
+<div class="thucdon">
+	<div class="mon">
+		<img src="assets/images/banh_trang_tron.jpg">
+		<h5>Bánh tráng trộn</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>
+	<div class="mon">
+		<img src="assets/images/com_chay_cha_bong.jpg">
+		<h5>Cơm chay bông</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>	
+	<div class="mon">
+		<img src="assets/images/cha_oc.jpg">
+		<h5>Chả ốc</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>
+		<div class="mon">
+		<img src="assets/images/com_chien_cua.png">
+		<h5>Cơm chiên cua</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>	
+</div>
+
+<!--hang2-->
+<div class="thucdon">
+	<div class="mon">
+		<img src="assets/images/cha_muc.jpg">
+		<h5>Chả mực</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>
+	<div class="mon">
+		<img src="assets/images/com_nam_chay.jpg">
+		<h5>Cơm nắm chay</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>	
+	<div class="mon">
+		<img src="assets/images/com_vit_quay.jpg">
+		<h5>Cơm vịt quay</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>
+		<div class="mon">
+		<img src="assets/images/ga_khong_loi_thoat.jpg">
+		<h5>Gà không lối thoát</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>	
+</div>
+
+<!--hang3-->
+<div class="thucdon">
+	<div class="mon">
+		<img src="assets/images/banh_bonglan_chanh.jpg">
+		<h5>Bánh bông lan</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>
+	<div class="mon">
+		<img src="assets/images/banh_chuoi_nuong.jpg">
+		<h5>Bánh chuối nướng</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>	
+	<div class="mon">
+		<img src="assets/images/banh_cookie_dua.jpg">
+		<h5>Bánh cookies dừa</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>
+		<div class="mon">
+		<img src="assets/images/kem_xoi.jpg">
+		<h5>Kem xôi</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>	
+</div>
+
+<!--hang4-->
+<div class="thucdon">
+	<div class="mon">
+		<img src="assets/images/tra_dao_cam_sa.jpg">
+		<h5>Trà đào cam sả</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>
+	<div class="mon">
+		<img src="assets/images/tra_tac.jpg">
+		<h5>Trà tắc</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>	
+	<div class="mon">
+		<img src="assets/images/che_buoi.jpg">
+		<h5>Chè bưởi</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>
+		<div class="mon">
+		<img src="assets/images/nuoc_ep_dau_tay.jpg">
+		<h5>Nước ép dâu tây</h5>
+		<p style="color:#b5292f;margin-top:5px;">200.000đ</p>
+		<div class="sales">Đặt món</div>
+	</div>	
+</div>
+<hr style="width: 100%; height: 4px; background-color:#b5292f; border: none; margin-top:80px;">
+<div id="footer">
+	<div id="main-footer">
+		<div id="f1">
+			<div class="ftitle">VỀ CHÚNG TÔI</div>
+			<p style="margin-top:25px;font-size:16px;line-height:1.5;">BaBepFood là thương hiệu được thành lập vào năm 2025 với tiêu chí đặt chất lượng dịch vụ lên hàng đầu.</p>
+			<div id="mxh">
+				<div class="social"><i class="fab fa-facebook-f"></i></div>
+				<div class="social"><i class="fab fa-twitter"></i></div>
+				<div class="social"><i class="fab fa-linkedin-in"></i></div>
+				<div class="social"><i class="fab fa-whatsapp"></i></div>				
+			</div>
+		</div>
+		<div id="f2">
+			<div class="ftitle">VỊ TRÍ</div>
+			<div id="locate">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.6483964306335!2d105.78100147185549!3d21.04675004432328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab325dc97109%3A0x89b77eda220fbe6a!2zMjM1IEhvw6BuZyBRdeG7kWMgVmnhu4d0LCBOZ2jEqWEgVMOibiwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1745282918901!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+		<div id="f3">
+			<div class="ftitle">LIÊN HỆ</div>	
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-location-dot"></i></div>235 Hoàng Quốc Việt, Cổ Nhuế 1,<br> Bắc Từ Liêm, Hà Nội
+			</div>
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-phone"></i></div>01234567892 <br> 0166771508	
+			</div>
+			<div class="lh1">
+				<div class="lhicon"><i class="fa-regular fa-envelope"></i></div>abc.media@gmail.com<br>loc.media@gmail.com		
+			</div>
+		</div>
+	</div>
+	<!--
+	<div id="backtostart">
+		<div id="iback">
+		</div>
+	</div>
+	-->
+</div>
+<div id="ai0">
+	<div id="fixed0">
+	<div id="iai0">
+			<a href="#" style="text-decoration:none;color:white;"><i class="fa-regular fa-house"></i></a>	
+	</div>
+	</div>
+</div>
+<div id="ai1">
+	<div id="fixed1">
+	<div id="iai1">
+			<a href="" style="text-decoration:none;color:white;"><i class="fa-brands fa-facebook-messenger"></i></a>	
+	</div>
+	</div>
+</div>
+<div id="cpr" style="text-align:center;font-size:18px;padding:20px;">Copyright 2025 BaBepFood. All Rights Reserved.</div>
+<script src="js/main.js"></script>
+</body>
+</html>
