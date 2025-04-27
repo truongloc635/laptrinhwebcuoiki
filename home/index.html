@@ -75,7 +75,7 @@
 	</div>
 </header>
 <div id="carousel">
-	<img src="" alt="" style="width: 100%; height:100%">
+	<img src="./assets/images/banner.png" alt="" style="width: 100%; height:100%">
 </div>
 <div class="service">
 	<div class="homeservice">
@@ -276,8 +276,36 @@
 </div>
 <div id="ai1">
 	<div id="fixed1">
+		<div id="chatboxloc">
+			<div class="chat-container">
+				<div class="chat-header">
+					<div class="chat-header-left">
+						<div class="avatar">BB</div>
+						<h2>BA BẾP SUPPORT</h2>
+					</div>
+					<div class="close" onclick="hidechatbox();">
+						<i class="fa fa-minus"></i>
+					</div>
+				</div>    
+				<div id="chat-box">
+					<div class="welcome-message">
+						<h3>Chào mừng đến với BA BẾP FOOD</h3>
+						<p>Mình được tạo ra để giúp bạn ăn ngon nhất có thể!</p>
+					</div>
+					<div class="bot-message">
+						<p>Mình là Ba Bếp, bạn cần gì cứ nói với mình nhé, đừng ngại!</p>
+					</div>
+				</div> 
+				<div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Hỏi về món ăn bạn muốn..." autofocus>
+					<button id="send-button">
+					Gửi
+					</button>
+				</div>
+			</div>
+		</div>
 	<div id="iai1">
-			<a href="" style="text-decoration:none;color:white;"><i class="fa-brands fa-facebook-messenger"></i></a>	
+			<a href="javascript:void(0);" style="text-decoration:none;color:white;" onclick="showchatbox();"><i class="fa-brands fa-facebook-messenger"></i></a>	
 	</div>
 	</div>
 </div>
