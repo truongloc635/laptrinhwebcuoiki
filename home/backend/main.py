@@ -24,11 +24,11 @@ app.include_router(router)
 
 @app.get("/")
 async def root(request: Request):
-    return templates.TemplateResponse("chat.html", {"request": request})
+    return templates.TemplateResponse("index.html", {"request": request})
 
-@app.get("/chat.html")
+@app.get("/chat")
 async def chat_page(request: Request):
-    return templates.TemplateResponse("chat.html", {"request": request})
+    return templates.TemplateResponse("../index.html", {"request": request})
 
 @app.options("/chat")
 async def options_chat():

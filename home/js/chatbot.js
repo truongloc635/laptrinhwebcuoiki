@@ -5,6 +5,17 @@ document.getElementById("user-input").addEventListener("keypress", function(even
     }
 });
 
+// Add functionality to close button
+document.addEventListener("DOMContentLoaded", function() {
+    const closeButton = document.querySelector(".status i");
+    if (closeButton) {
+        closeButton.addEventListener("click", function() {
+            // Send message to parent window to close the popup
+            window.parent.postMessage("closeChat", "*");
+        });
+    }
+});
+
 function sendSuggestion(text) {
     document.getElementById("user-input").value = text;
     sendMessage();
